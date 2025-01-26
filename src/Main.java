@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Task1");
@@ -28,8 +30,27 @@ public class Main {
         weight1[0] = 1;
         weight1[1] = 2;
         weight1[2] = 3;
-        System.out.print(weight1[0]+",");
-        System.out.print(weight1[1]+",");
-        System.out.print(weight1[2]+"");
+        System.out.print(weight1[0] + ",");
+        System.out.print(weight1[1] + ",");
+        System.out.print(weight1[2] + "");
+        System.out.println();
+        System.out.println("Task3");
+        int[] weight2 = new int[3];
+        weight2[0] = 1;
+        weight2[1] = 2;
+        weight2[2] = 3;
+        System.out.print(weight2[2] + ",");
+        System.out.print(weight2[1] + ",");
+        System.out.print(weight2[0] + "");
+        System.out.println();
+        System.out.println("Task4");
+        int[] code = {1, 2, 3, 4, 5, 6, 7, 8};
+        for (int i = 0; i < code.length; i++) {
+            if (code[i] % 2 != 0){
+                code[i] = code[i] + 1;
+            }
+        }
+        System.out.print(Arrays.toString(code));
+
     }
 }
