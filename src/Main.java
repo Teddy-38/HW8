@@ -23,5 +23,13 @@ public class Main {
         for (int i = 0; i < 7; i++) {
             System.out.println(weights[i]);
         }
+        System.out.println("Task2");
+        int[] weight1 = new int[3];
+        weight1[0] = 1;
+        weight1[1] = 2;
+        weight1[2] = 3;
+        System.out.print(weight1[0]+",");
+        System.out.print(weight1[1]+",");
+        System.out.print(weight1[2]+"");
     }
 }
