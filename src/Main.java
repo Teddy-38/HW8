@@ -34,6 +34,11 @@ public class Main {
         System.out.print(weight1[1] + ",");
         System.out.print(weight1[2] + "");
         System.out.println();
+        double[] box1 = {1.57, 7.654, 9.986};
+        System.out.print(box1[0]+",");
+        System.out.print(box1[1]+",");
+        System.out.print(box1[2]);
+        System.out.println();
         System.out.println("Task3");
         int[] weight2 = new int[3];
         weight2[0] = 1;
@@ -42,6 +47,11 @@ public class Main {
         System.out.print(weight2[2] + ",");
         System.out.print(weight2[1] + ",");
         System.out.print(weight2[0] + "");
+        System.out.println();
+        double[] box2 = {1.57, 7.654, 9.986};
+        System.out.print(box2[2]+",");
+        System.out.print(box2[1]+",");
+        System.out.print(box2[0]);
         System.out.println();
         System.out.println("Task4");
         int[] code = {1, 2, 3, 4, 5, 6, 7, 8};
